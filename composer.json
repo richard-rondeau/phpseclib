@@ -1,5 +1,5 @@
 {
-    "name": "richard-rondeau/phpseclib",
+    "name": "mtl-tools-sftp/sftp",
     "type": "library",
     "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
     "keywords": [
@@ -51,7 +51,6 @@
         }
     ],
     "require": {
-        "paragonie/random_compat": "^1.4|^2.0",
         "php": ">=5.3.3"
     },
     "require-dev": {
@@ -67,11 +66,8 @@
         "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations."
     },
     "autoload": {
-        "files": [
-            "phpseclib/bootstrap.php"
-        ],
         "psr-4": {
-            "phpseclib\\": "phpseclib/"
+            "sftp\\": "sftp/"
         }
     }
 }
